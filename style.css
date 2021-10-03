@@ -36,6 +36,10 @@ body {
   z-index: 10;
 }
 
+.menu.change {
+  left: 15vw;
+}
+
 /* end of menu styles */
 
 /* navbae styling */
@@ -51,6 +55,10 @@ body {
   flex-direction: column;
   padding: 4rem 0 0 4rem;
   z-index: 10;
+}
+
+.navbar.change {
+  left: 0;
 }
 
 /* end of navbae styling */
@@ -69,9 +77,13 @@ section {
   position: relative;
   left: 0;
   margin-bottom: 3rem;
-  /* transform: rotateY(10deg); */
   transform-origin: left;
   box-shadow: 0.5rem 0.5rem 1rem #aaa;
+}
+
+section.change {
+  left: 15vw;
+  transform: rotateY(10deg);
 }
 
 /* end of common SECTION styles */
