@@ -227,3 +227,26 @@ section.change {
   cursor: pointer;
 }
 /* end of section 2 styles */
+
+/* section 3 styles */
+.video {
+  width: 25%;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  box-shadow: 0.3rem 0.3rem 0.5rem #111;
+  transition: all 0.5s;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(35, 0, 0);
+}
+
+.video:hover {
+  opacity: 1;
+  box-shadow: 0.5rem 0.5rem 1rem #111;
+}
+/* end of section 3 styles */
