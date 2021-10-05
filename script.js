@@ -11,3 +11,14 @@ document.querySelectorAll(".wrapper").forEach((beeple) => {
     });
   });
 });
+
+const videos = document.querySelectorAll(".video");
+
+videos.forEach((noodle) => {
+  noodle.addEventListener("mouseover", () => {
+    noodle.play();
+  });
+  noodle.addEventListener("mouseout", () => {
+    noodle.pause();
+  });
+});
