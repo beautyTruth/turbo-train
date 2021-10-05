@@ -22,3 +22,9 @@ videos.forEach((noodle) => {
     noodle.pause();
   });
 });
+
+const currentDate = document.querySelector(".current-date");
+const date = new Date().getFullYear();
+currentDate.textContent = date;
+
+console.log(date);
