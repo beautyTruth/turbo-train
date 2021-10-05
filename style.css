@@ -124,6 +124,7 @@ section {
   left: 0;
   margin-bottom: 3rem;
   transform-origin: left;
+  padding: 5rem 0;
   box-shadow: 0.5rem 0.5rem 1rem #aaa;
   transition: left 0.5s, transform 0.5s;
 }
@@ -279,7 +280,8 @@ section.change {
   height: 10rem;
   background-color: rgba(34, 152, 248, 0.7);
   top: -10rem;
-  transform: rotateX(20deg);
+  /* transform: rotatex(60deg) skewX(-65deg) skewX(45deg); */
+  clip-path: polygon(12% 40%, 91% 40%, 100% 100%, 0 100%);
   transform-origin: bottom;
 }
 
